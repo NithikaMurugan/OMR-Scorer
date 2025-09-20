@@ -7,16 +7,35 @@ tqdm
 scikit-image
 jupyter
 
+# Computer Vision
 opencv-python
 opencv-python-headless
+
+# Machine Learning
 tensorflow
 keras
 torch
 torchvision
 torchaudio
-
-streamlit
 scikit-learn
+
+# Web Application
+streamlit
+plotly
+dash
+
+# Image Processing
 Pillow
 pdf2image
 PyMuPDF
+
+# Database and Storage
+sqlite3
+
+# Data Export
+openpyxl
+xlsxwriter
+
+# Additional utilities
+python-dateutil
+requests
