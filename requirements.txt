@@ -1,0 +1,22 @@
+# Core libraries
+numpy
+pandas
+matplotlib
+seaborn
+tqdm
+scikit-image
+jupyter
+
+opencv-python
+opencv-python-headless
+tensorflow
+keras
+torch
+torchvision
+torchaudio
+
+streamlit
+scikit-learn
+Pillow
+pdf2image
+PyMuPDF
