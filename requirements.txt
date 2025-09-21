@@ -29,8 +29,6 @@ Pillow
 pdf2image
 PyMuPDF
 
-# Database and Storage
-sqlite3
 
 # Data Export
 openpyxl
