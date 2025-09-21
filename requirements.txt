@@ -30,7 +30,7 @@ pdf2image
 PyMuPDF
 
 # Database and Storage
-sqlite3
+# sqlite3 is built-in to Python
 
 # Data Export
 openpyxl

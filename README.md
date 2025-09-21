@@ -137,8 +137,25 @@ OMR-Scorer/
 ├── app.py                      # Main Streamlit application
 ├── requirements.txt            # Python dependencies
 ├── README.md                   # Project documentation
+├── .gitignore                  # Git ignore rules
+├── analysis/                   # Analysis and visualization scripts
+│   ├── README.md              # Analysis scripts documentation
+│   ├── analyze_omr_structure.py
+│   ├── bubble_analysis.py
+│   └── ...                    # Other analysis tools
 ├── database/
 │   └── results.db             # SQLite database
+├── debug/                      # Debug and diagnostic scripts
+│   ├── README.md              # Debug scripts documentation
+│   ├── bubble_position_debug.py
+│   ├── debug_bubble_recognition.py
+│   └── ...                    # Other debug tools
+├── images/                     # Generated images and visualizations
+│   ├── README.md              # Images directory documentation
+│   └── ...                    # Debug/analysis output images
+├── logs/                       # Application log files
+│   ├── README.md              # Logs directory documentation
+│   └── omr_processing.log     # Main processing logs
 ├── Models/
 │   └── cnn_modal.h5           # Pre-trained CNN model
 ├── sampledata/
@@ -146,14 +163,24 @@ OMR-Scorer/
 │   └── omr_sheets/            # Sample OMR sheets
 │       ├── set_A/
 │       └── set_B/
-└── utils/
+├── tests/                      # Test scripts
+│   ├── README.md              # Test scripts documentation
+│   ├── test_accuracy.py
+│   ├── test_bubble_detection.py
+│   └── ...                    # Other test files
+├── train/                      # Training and evaluation scripts
+│   ├── evaluate_scoring.py
+│   ├── train_cnn.py
+│   └── prepare_bubble_dataset.py
+└── utils/                      # Core utility modules
     ├── preprocess.py          # Image preprocessing
     ├── bubbledetection.py     # Bubble detection & classification
     ├── scoring.py             # Score calculation
     ├── answerkey.py           # Answer key management
     ├── database.py            # Database operations
     ├── validation.py          # Input validation & error handling
-    └── export.py              # Export functionality
+    ├── export.py              # Export functionality
+    └── ...                    # Other utility scripts
 ```
 
 ## 📊 Database Schema
